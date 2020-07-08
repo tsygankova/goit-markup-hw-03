@@ -1,0 +1,215 @@
+/*палитра макета и переменные*/
+:root{
+--main-font:"Roboto", sans-serif;
+--secondary-font: "Raleway",sans-serif;
+--title-dark-theme-color:#ffffff;
+--title-light-theme-color:#212121;
+--text-main-color: #757575;
+--accent-color:#2196F3;
+--background-color:#ffffff;
+--hover-buttons-text:#ffffff;
+--footer-links-color:rgba(255,255,255,0.6);
+--logo-color:#2196F3;
+}
+
+.body{
+  background-color:var(--background-color);
+  color: var(--text-main-color);
+  font-family: var(--main-font);
+  font-size:14px;
+  letter-spacing: 0.03em;
+}
+
+/*ссылки и списки - общие стили*/
+.link{
+  text-decoration: none;
+}
+.list{
+  list-style: none;
+}
+
+/*logo*/
+.logo, .footer-logo{
+  font-family: var(--secondary-font);
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+}
+.logo{
+  color: var(--title-light-theme-color);
+}
+
+/*logo blue*/
+span{color:var(--logo-color);}
+
+/* index header*/
+.menu-item-link, 
+.header-email-link,
+.header-phone-link{
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.menu-item-link{
+  color: var(--title-light-theme-color);
+}
+
+.header-email-link, 
+.header-phone-link{
+  color: var(--text-main-color);
+}
+
+.menu-item-link:hover,
+.menu-item-link:focus,
+.header-email-link:hover,
+.header-email-link:focus, 
+.header-phone-link:hover,
+.header-phone-link:focus{
+  color: var(--accent-color);
+}
+
+/*hero*/
+.hero-title{
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--title-dark-theme-color);
+  background-color:#757575;/*временно;*/}
+
+.modal-btn,
+.modal-btn:hover,
+.model-btn:focus{
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.88;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--title-dark-theme-color);
+  background: #2196F3;
+  letter-spacing: 0.03em;
+}
+
+/*ФИЧИ*/
+.features-item-title{
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 1.14;
+  text-transform: uppercase;
+  color: var(--title-light-theme-color);
+}
+
+.features-item-text{
+  line-height: 1.71;
+  color:var(--text-main-color);
+}
+
+.title{font-weight: bold;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  color: var(--title-light-theme-color);
+}
+
+ /*НАПРАВЛЕНИЯ БИЗНЕСА*/ 
+.business-item-title{
+  font-weight: bold;
+  line-height: 1.14;
+  text-transform: uppercase;
+  color: var(--title-dark-theme-color);
+  background-color:#2F303A;
+}
+
+/*КОМАНДА*/   
+.team-member-title, 
+.team-member-text{
+  font-size: 16px;
+  line-height: 1.19;
+}
+
+.team-member-title{
+  font-weight: 500;
+  text-align: center;
+  color: var(--title-light-theme-color)
+}
+
+/*ФУТЕР*/
+.footer{background: #2F303A;}
+
+.footer-address{
+  font-style: normal;
+  line-height: 1.71;
+  color: var(--title-dark-theme-color);
+}
+
+.footer-email, .footer-tel {
+  font-style: normal;
+  line-height: 1.71;
+  color: var(--footer-links-color);
+}
+
+.footer-email:hover,
+.footer-email:focus,
+.footer-tel:hover,
+.footer-tel:focus{
+  color: var(--accent-color);
+}
+.social-call{
+  font-weight: bold;
+  line-height: 1.14;
+  text-transform: uppercase;
+  color: var(--title-dark-theme-color);
+}
+
+.footer-logo{
+  color:#FFFFFF;
+}
+
+/*portfolio filters*/
+.filter, 
+.filter:hover,
+.filter:focus{
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+/*portolio items*/
+.filter{
+  color: var(--title-light-theme-color);
+}
+
+.filter:hover, .filter:focus{
+  color: var(--hover-buttons-text);
+  background-color: rgba(33, 150, 243, 1);
+}
+
+.portfolio-item-title{
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--title-light-theme-color);
+}
+
+.portfolio-item-text{
+  font-size: 16px;
+  line-height: 1.87;
+  color: var(--text-main-color);
+}
+
+.portfolio-item-hover-text{
+  color: var(--text-main-color);
+}
+.portfolio-item-hover-text:hover{
+  font-size: 18px;
+  line-height: 1.56;
+  color:var(--hover-buttons-text);
+  background-color: rgba(33, 150, 243, 1)
+}
