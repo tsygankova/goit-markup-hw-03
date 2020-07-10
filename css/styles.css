@@ -70,13 +70,17 @@ span{color:var(--logo-color);}
 }
 
 /*hero*/
+.hero{
+  text-align:center;
+}
+
 .hero-title{
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+  margin: 0px 0px 0px 0px;
   color: var(--title-dark-theme-color);
   background-color:#757575;/*временно;*/}
 
@@ -88,7 +92,6 @@ span{color:var(--logo-color);}
   line-height: 1.88;
   display: flex;
   align-items: center;
-  text-align: center;
   letter-spacing: 0.06em;
   color: var(--title-dark-theme-color);
   background: #2196F3;
