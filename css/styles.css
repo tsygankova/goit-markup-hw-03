@@ -258,11 +258,21 @@ span{color:var(--logo-color);}
   padding-bottom: 94px;
   background-color: var(--section-color);
 }
+.team-member{
+  width:270px;
+  margin-right:30px;
+}
+
+.team-member.last-child{margin-right: 0px;}
+.team-member-image{
+  margin-bottom:30px;
+}
 .team-member-title, 
 .team-member-text{
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
+  margin-bottom: 10px;
 }
 
 .team-member-title{
@@ -277,12 +287,7 @@ span{color:var(--logo-color);}
   justify-content: space-around;
 }
 
-.team-member{
-  width:270px;
-  margin-right:30px;
-}
 
-.team-member.last-child{margin-right: 0px;}
 
 .social{
   display: flex;
