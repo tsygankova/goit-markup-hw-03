@@ -251,13 +251,14 @@ span{color:var(--logo-color);}
 .team-section{
   height:702px;
   padding-top:94px;
-  padding-bottom: 94px;
+  padding-bottom: 91px;
   background-color: var(--section-color);
 }
 .team-member{
   width:270px;
   height:422px;
   margin-right:30px;
+  margin-bottom:0px;
 }
 
 .team-member.last-child{
