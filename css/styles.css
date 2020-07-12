@@ -24,6 +24,9 @@
 }
 
 .body{
+  margin-left:15px;
+  margin-right:15px;
+  width:1170px;
   background-color:var(--background-color);
   color: var(--text-main-color);
   font-family: var(--main-font);
@@ -39,6 +42,30 @@
   list-style: none;
   margin-top: 0px;
   margin-bottom: 0px;
+}
+
+h1,h2,h3,p{
+  margin:0px 0px 0px 0px;
+  text-align:center;
+}
+
+/*header*/
+.header{
+  display: flex;
+  flex-direction: row;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  align-items: center;
+}
+.navigation{
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.menu-container{
+  display:flex;
+  flex-direction: row-reverse;
 }
 
 /*logo*/
@@ -59,6 +86,7 @@ span{color:var(--logo-color);}
 .menu-item-link, 
 .header-email-link,
 .header-phone-link{
+  margin-right:30px;
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
@@ -68,9 +96,22 @@ span{color:var(--logo-color);}
   color: var(--title-light-theme-color);
 }
 
+.menu-item-link.last-child{
+  margin-right:0px;
+}
+
+.header-contacts{
+  display:flex;
+  flex-direction: row;
+}
+
 .header-email-link, 
 .header-phone-link{
   color: var(--text-main-color);
+}
+
+.header-email-link{
+  margin-right:30px;
 }
 
 .menu-item-link:hover,
@@ -85,10 +126,12 @@ span{color:var(--logo-color);}
 /*hero*/
 .hero{
   text-align:center;
-  width:1600px;
+  widows: 1200px;
   height:800px;
-  padding-top, padding-bottom:200px;
-  padding-right, padding-left: 452px;
+  padding-top:200px;
+  padding-bottom: 200px;
+  padding-right: 452px;
+  padding-left:452px;
 }
 
 .hero-title{
@@ -99,11 +142,15 @@ span{color:var(--logo-color);}
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--title-dark-theme-color);
-  background-color:#757575;/*временно;*/}
+  background-color:#757575;/*временно;*/
+  margin-bottom: 30px;
+}
 
 .modal-btn,
 .modal-btn:hover,
 .model-btn:focus{
+  width:200px;
+  height:50px;
   font-weight: bold;
   font-size: 16px;
   line-height: 1.88;
@@ -116,6 +163,16 @@ span{color:var(--logo-color);}
 }
 
 /*ФИЧИ*/
+
+.features-section{
+  padding-bottom:30px;
+}
+
+.features{
+  display:flex;
+  flex-direction: row;
+}
+
 .features-item-title{
   font-size: 14px;
   font-weight: bold;
@@ -127,6 +184,7 @@ span{color:var(--logo-color);}
 .features-item-text{
   line-height: 1.71;
   color:var(--text-main-color);
+  text-align: center;
 }
 
 .title{font-weight: bold;
@@ -134,32 +192,110 @@ span{color:var(--logo-color);}
   line-height: 1.17;
   text-align: center;
   color: var(--title-light-theme-color);
+  text-align: center;
 }
 
  /*НАПРАВЛЕНИЯ БИЗНЕСА*/ 
+ .business{
+   padding-bottom:30px;
+ }
+
 .business-item-title{
   font-weight: bold;
   line-height: 1.14;
   text-transform: uppercase;
   color: var(--title-dark-theme-color);
   background-color:#2F303A;
+  text-align: center;
+}
+
+.business-item-container{
+  display:flex;
+  flex-direction: row;
+  align-items: stretch;
+}
+
+.business-item{
+  margin-right:30px;
+}
+.business-item.last-child{
+  margin-right:0px;
 }
 
 /*КОМАНДА*/   
+
+.team-section{
+  width: 1170px;
+  height:422px;
+  padding-bottom: 30px;
+}
 .team-member-title, 
 .team-member-text{
   font-size: 16px;
   line-height: 1.19;
+  text-align: center;
 }
 
 .team-member-title{
   font-weight: 500;
   text-align: center;
-  color: var(--title-light-theme-color)
+  color: var(--title-light-theme-color);
 }
 
+.team{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.team-member{
+  width:270px;
+  margin-right:30px;
+}
+
+.team-member.last-child{margin-right: 0px;}
+
+.social{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.social-list-item{
+  margin-right:15px;
+}
+
+.social-list-item.last-child{
+margin-right:0px;
+}
+
+/*КЛИЕНТЫ*/
+.clients-container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  padding-bottom: 30px;
+}
+
+.client{
+  margin-right: 30px;
+}
+
+.client:last-child{
+  margin-right: 0px;
+}
 /*ФУТЕР*/
-.footer{background: #2F303A;}
+.footer{background: #2F303A;
+  padding-bottom: 30px;
+  display: flex;
+  flex-direction: row;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  align-items: center;
+}
+
+
 
 .footer-address{
   font-style: normal;
