@@ -37,11 +37,10 @@
 /*ссылки и списки - общие стили*/
 .link{
   text-decoration: none;
+  margin: 0px 0px 0px 0px;
 }
 .list{
   list-style: none;
-  margin-top: 0px;
-  margin-bottom: 0px;
 }
 
 h1,h2,h3,p{
@@ -51,6 +50,8 @@ h1,h2,h3,p{
 
 /*header*/
 .header{
+  width: 1600px;
+  height: 81 px;
   display: flex;
   flex-direction: row;
   padding-top: 25px;
@@ -67,6 +68,7 @@ h1,h2,h3,p{
   display:flex;
   flex-direction: row-reverse;
   justify-content: flex-end;
+  margin-left:85px;
 }
 
 /*logo*/
@@ -78,6 +80,7 @@ h1,h2,h3,p{
 }
 .logo{
   color: var(--title-light-theme-color);
+  margin-left:215px;
 }
 
 /*logo blue*/
@@ -87,7 +90,6 @@ span{color:var(--logo-color);}
 .menu-item-link, 
 .header-email-link,
 .header-phone-link{
-  margin-right:30px;
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
@@ -97,7 +99,10 @@ span{color:var(--logo-color);}
   color: var(--title-light-theme-color);
 }
 
-.menu-item-link.last-child{
+.menu-item{
+  margin-right:50px;
+}
+.menu-item.last-child{
   margin-right:0px;
 }
 
