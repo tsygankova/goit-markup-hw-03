@@ -397,20 +397,23 @@ margin-right:0px;
 }
 
 /*ПОРТФОЛИО*/
+.portfolio{
+  padding-top:93px;
+  padding-bottom: 94px;
+}
 
 /*portfolio filters*/
 .filters{
-  padding-top:93px;
   display: flex;
   flex-direction: row;
   align-items: center;
   margin-bottom: 50px;
 }
 
-.filter{
-  margin-right: 30px;
+.filter-container{
+  margin-right: 8px;
 }
-.filter.last-child{
+.filter-container.last-child{
   margin-right:0px;
 }
 
@@ -423,8 +426,6 @@ margin-right:0px;
   text-align: center;
   letter-spacing: 0.03em;
 }
-
-/*portolio items*/
 .filter{
   color: var(--title-light-theme-color);
 }
@@ -433,6 +434,8 @@ margin-right:0px;
   color: var(--hover-buttons-text);
   background-color: rgba(33, 150, 243, 1);
 }
+
+/*portolio items*/
 
 .portfolio-items-list{
   display:flex;
