@@ -160,7 +160,7 @@ span{color:var(--logo-color);}
 .modal-btn,
 .modal-btn:hover,
 .model-btn:focus{
-  width:200px;
+  min-width:200px;
   height:50px;
   position: absolute;
   left: 485px;
@@ -287,8 +287,6 @@ span{color:var(--logo-color);}
   justify-content: space-around;
 }
 
-
-
 .social{
   display: flex;
   flex-direction: row;
@@ -304,12 +302,14 @@ margin-right:0px;
 }
 
 /*КЛИЕНТЫ*/
+.clients-section{
+  padding-bottom: 94px;
+  padding-top: 94px;
+}
 .clients-container{
   display: flex;
   flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: space-evenly;
-  padding-bottom: 30px;
+  justify-content: space-between;
 }
 
 .client{
