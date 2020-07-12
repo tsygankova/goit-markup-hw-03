@@ -1,3 +1,4 @@
+
 /*палитра макета и переменные*/
 :root{
 --main-font:"Roboto", sans-serif;
@@ -10,6 +11,16 @@
 --hover-buttons-text:#ffffff;
 --footer-links-color:rgba(255,255,255,0.6);
 --logo-color:#2196F3;
+}
+
+ /*глобальный border-box*/
+ html{
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after{
+  box-sizing: inherit;
 }
 
 .body{
