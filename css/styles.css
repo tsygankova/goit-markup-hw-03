@@ -294,6 +294,23 @@ margin-right:0px;
   padding-bottom: 25px;
   align-items: center;
 }
+.footer-address{
+  display: flex;
+  flex-direction: column;
+}
+.contacts{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.social-footer-list{
+  display:flex;
+  justify-content:flex-end;
+  flex-direction: reverse-row;
+  align-items: center;
+  margin-left:auto;
+}
 
 
 
