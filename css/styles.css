@@ -37,6 +37,8 @@
 }
 .list{
   list-style: none;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 /*logo*/
@@ -83,15 +85,19 @@ span{color:var(--logo-color);}
 /*hero*/
 .hero{
   text-align:center;
+  width:1600px;
+  height:800px;
+  padding-top, padding-bottom:200px;
+  padding-right, padding-left: 452px;
 }
 
 .hero-title{
+  width:696px;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  margin: 0px 0px 0px 0px;
   color: var(--title-dark-theme-color);
   background-color:#757575;/*временно;*/}
 
