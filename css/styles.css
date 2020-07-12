@@ -57,9 +57,8 @@ h2{
 
 /*header*/
 .header{
-  height: 81 px;
+  height: 81px;
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
   padding-top: 26px;
   padding-bottom: 25px;
@@ -223,7 +222,7 @@ span{color:var(--logo-color);}
 
  /*НАПРАВЛЕНИЯ БИЗНЕСА*/ 
  .business{
-   padding-bottom:30px;
+   padding-bottom: 94px;
  }
 
 .business-item-title{
@@ -251,7 +250,7 @@ span{color:var(--logo-color);}
 
 .team-section{
   height:702px;
-  padding-top:103px;
+  padding-top:94px;
   padding-bottom: 94px;
   background-color: var(--section-color);
 }
@@ -284,7 +283,7 @@ span{color:var(--logo-color);}
 
 .team{
   display:flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .social{
