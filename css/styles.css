@@ -116,8 +116,6 @@ span{color:var(--logo-color);}
 
 .header-contacts{
   display:flex;
-  flex-direction: row;
-  justify-content: flex-end;
 }
 
 .header-email-link, 
@@ -180,7 +178,8 @@ span{color:var(--logo-color);}
 /*ФИЧИ*/
 
 .features-section{
-  margin-bottom:94px;
+  padding-top: 94px;
+  padding-bottom:94px;
 }
 
 .features{
@@ -189,11 +188,11 @@ span{color:var(--logo-color);}
 
 .features-item{
   width: 270px;
-  height: 251px;
   margin-right:30px;
 }
 
 .features-item:last-child{
+  width: 270px;
   margin-right: 0px;
 }
 
@@ -240,6 +239,7 @@ span{color:var(--logo-color);}
 }
 
 .business-item{
+  width:370px;
   margin-right:30px;
 }
 .business-item.last-child{
@@ -249,14 +249,12 @@ span{color:var(--logo-color);}
 /*КОМАНДА*/   
 
 .team-section{
-  height:702px;
   padding-top:94px;
   padding-bottom: 91px;
   background-color: var(--section-color);
 }
 .team-member{
   width:270px;
-  height:422px;
   margin-right:30px;
   margin-bottom:0px;
   background: #FFFFFF;
