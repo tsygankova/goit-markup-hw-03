@@ -321,7 +321,6 @@ margin-right:0px;
 }
 /*ФУТЕР*/
 .footer{background: #2F303A;
-  padding-bottom: 30px;
   display: flex;
   padding-top: 25px;
   padding-bottom: 25px;
@@ -341,7 +340,8 @@ margin-right:0px;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  margin-right:69px;
+  width: 300px;
+  padding-right:69px;
 }
 
 .social-footer-list{
@@ -384,6 +384,8 @@ margin-right:0px;
   display:flex;
   flex-direction:column;
   justify-content: flex-start;
+  width:300px;
+  padding-right: 94px;
 }
 
 .socialmedia{
@@ -392,6 +394,11 @@ margin-right:0px;
 
 .socialmedia:last-child{
   margin-right: 0px;
+}
+
+.subscription-form{
+  display:flex;
+  width:570px;
 }
 
 /*ПОРТФОЛИО*/
