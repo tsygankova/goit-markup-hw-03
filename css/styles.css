@@ -192,7 +192,6 @@ span{color:var(--logo-color);}
 }
 
 .features-item:last-child{
-  width: 270px;
   margin-right: 0px;
 }
 
