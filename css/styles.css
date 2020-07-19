@@ -141,17 +141,15 @@ span{color:var(--logo-color);}
 /*HERO*/
 .hero{
   text-align:center;
-  height:600px;
-  padding-top:200px;
-  padding-bottom: 200px;
-  padding-right: 237px;
-  padding-left:237px;
-  margin-bottom:93px;
+  width: 696px;
+  height:260px;
   background-color:grey;
+  padding-top: 30px;
+  padding-bottom:30px;
+  margin:auto;
 }
 
 .hero-title{
-  width:696px;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -166,9 +164,6 @@ span{color:var(--logo-color);}
 .model-btn:focus{
   min-width:200px;
   height:50px;
-  position: absolute;
-  left: 485px;
-  top: 430px;
   padding: 10px 32px 10px 32px;
   background: #2196F3;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
