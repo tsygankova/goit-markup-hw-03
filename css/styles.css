@@ -423,7 +423,7 @@ margin-right:0px;
 /*portfolio filters*/
 .filters{
   display: flex;
-  align-items: center;
+  justify-content: center;
   margin-bottom: 50px;
 }
 
