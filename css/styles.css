@@ -32,6 +32,14 @@
   letter-spacing: 0.03em;
 }
 
+.header-container, .footer-container{
+  width:1200px;
+  padding-left:15px;
+  padding-right:15px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+}
 .container{
   width:1200px;
   padding-left:15px;
@@ -69,6 +77,7 @@ h2{
   padding-bottom: 25px;
   align-items: center;
 }
+
 .navigation{
   display:flex;
   flex-direction: row;
@@ -116,6 +125,8 @@ span{color:var(--logo-color);}
 
 .header-contacts{
   display:flex;
+  align-items: center;
+  margin-left:305px;
 }
 
 .header-email-link, 
@@ -139,8 +150,6 @@ span{color:var(--logo-color);}
 /*HERO*/
 .hero{
   text-align:center;
-  width: 696px;
-  height:260px;
   background-color:grey;
   padding-top: 30px;
   padding-bottom:30px;
@@ -148,6 +157,7 @@ span{color:var(--logo-color);}
 }
 
 .hero-title{
+  width:696px;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -155,6 +165,8 @@ span{color:var(--logo-color);}
   text-transform: uppercase;
   color: var(--title-dark-theme-color);
   margin-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .modal-btn,
@@ -321,8 +333,8 @@ margin-right:0px;
 /*ФУТЕР*/
 .footer{background: #2F303A;
   display: flex;
-  padding-top: 25px;
-  padding-bottom: 25px;
+  padding-top: 60px;
+  padding-bottom: 60px;
   align-items: center;
 }
 
@@ -368,6 +380,7 @@ margin-right:0px;
   color: var(--accent-color);
 }
 .social-call{
+  padding-top:12px;
   margin-bottom:20px;
   font-weight: bold;
   line-height: 1.14;
@@ -383,6 +396,7 @@ margin-right:0px;
   display:flex;
   flex-direction:column;
   justify-content: flex-start;
+  align-items: center;
   width:300px;
   padding-right: 94px;
 }
