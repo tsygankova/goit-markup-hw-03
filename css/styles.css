@@ -153,7 +153,6 @@ span{color:var(--logo-color);}
   background-color:grey;
   padding-top: 30px;
   padding-bottom:30px;
-  margin:auto;
 }
 
 .hero-title{
@@ -172,6 +171,8 @@ span{color:var(--logo-color);}
 .modal-btn,
 .modal-btn:hover,
 .model-btn:focus{
+  display: block;
+  margin: 0 auto;
   min-width:200px;
   height:50px;
   padding: 10px 32px 10px 32px;
