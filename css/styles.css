@@ -243,6 +243,8 @@ span{color:var(--logo-color);}
   color: var(--title-dark-theme-color);
   background-color:#2F303A;
   text-align: center;
+  padding-top: 27px;
+  padding-bottom: 27px;
 }
 
 .business-item-container{
@@ -449,6 +451,8 @@ margin-right:0px;
   color: var(--title-light-theme-color);
   padding: 6px 22px;
   border:transparent;
+  border-radius:4px;
+  background-color: var(--section-color);
 }
 
 .filter:hover, .filter:focus{
